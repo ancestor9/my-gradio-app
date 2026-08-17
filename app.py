@@ -1,5 +1,10 @@
 import gradio as gr
+import spaces
 
+@spaces.GPU
+def predict(input_text):
+    # GPU 모델 추론 코드
+    return output
 
 def greet(name):
     return f"Hello {name}!"
