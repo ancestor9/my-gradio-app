@@ -12,7 +12,7 @@ def predict(input_text):
 demo = gr.Interface(
     fn=predict,  # @spaces.GPU가 적용된 함수를 연결
     inputs=gr.Textbox(label="Type your name ...."),
-    outputs=gr.Textbox(label="greeting wwwwwwwww!"),
+    outputs=gr.Textbox(label="greeting HHHHHHHH!"),
     title="Gradio Demo app",
     description="A simple Gradio interface example.",
 )
